@@ -7,7 +7,7 @@ body {
 
 p {
   font-family: "Bitcount Ink", system-ui;
-  font-optical-sizing: auto;
+
   font-weight: 400;
 }
 
@@ -141,3 +141,43 @@ body {
     display: block;
   }
 }
+
+@media (max-width: 500px) {
+  #navbar ul li a {
+    font-size: 0; 
+  }
+
+  #navbar ul li a i {
+    font-size: 24px; 
+    margin: 0 8px;
+  }
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffff00; /* žlutá - viditelná na fialové */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffff00; /* žlutá - viditelná na fialové */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
